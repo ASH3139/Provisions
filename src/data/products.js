@@ -1,0 +1,37 @@
+// Demo catalog only. Replace sample descriptions and images before launch. Price fields are kept in data but not displayed.
+export const categories = [
+  { name: 'All Products', short: 'All' },
+  { name: 'Fresh Produce', short: 'Produce' },
+  { name: 'Rice & Grains', short: 'Grains' },
+  { name: 'Pulses & Lentils', short: 'Pulses' },
+  { name: 'Dairy & Bakery', short: 'Dairy' },
+  { name: 'Snacks & Drinks', short: 'Snacks' },
+  { name: 'Kitchen & Home', short: 'Home' },
+];
+
+export const products = [
+  { id: 1, name: 'Fresh Tomatoes', category: 'Fresh Produce', price: 35, unit: 'per kg', description: 'A kitchen staple for curries, salads and everyday meals.', image: 'photo-1546094096-0df4bcaaa337', tag: 'Everyday pick' },
+  { id: 2, name: 'Potatoes', category: 'Fresh Produce', price: 30, unit: 'per kg', description: 'Versatile potatoes for all your family favourites.', image: 'photo-1518977676601-b53f82aba655' },
+  { id: 3, name: 'Ripe Bananas', category: 'Fresh Produce', price: 55, unit: 'per dozen', description: 'A naturally sweet snack for any time of day.', image: 'photo-1571771894821-ce9b6c11b08e' },
+  { id: 4, name: 'Red Apples', category: 'Fresh Produce', price: 160, unit: 'per kg', description: 'Crisp, colourful fruit for lunch boxes and snacks.', image: 'photo-1560806887-1e4cd0b6cbd6' },
+  { id: 5, name: 'Basmati Rice', category: 'Rice & Grains', price: 145, unit: 'per kg', description: 'Long-grain rice for aromatic biryani and special meals.', image: 'photo-1586201375761-83865001e31c', tag: 'Pantry staple' },
+  { id: 6, name: 'Sona Masoori Rice', category: 'Rice & Grains', price: 68, unit: 'per kg', description: 'A versatile everyday rice for home-style cooking.', image: 'photo-1586201375761-83865001e31c' },
+  { id: 7, name: 'Rolled Oats', category: 'Rice & Grains', price: 95, unit: 'per 500 g', description: 'A simple pantry option for breakfast and baking.', image: 'photo-1574323347407-f5e1ad6d020b' },
+  { id: 8, name: 'Whole Wheat Atta', category: 'Rice & Grains', price: 48, unit: 'per kg', description: 'Everyday flour for rotis, chapatis and more.', image: 'photo-1627485937980-221c88ac04f9' },
+  { id: 9, name: 'Toor Dal', category: 'Pulses & Lentils', price: 135, unit: 'per kg', description: 'A much-loved staple for comforting dal and sambar.', image: 'photo-1515543904379-3d757afe72e4' },
+  { id: 10, name: 'Moong Dal', category: 'Pulses & Lentils', price: 120, unit: 'per kg', description: 'A versatile lentil for light meals, khichdi and soups.', image: 'photo-1515543904379-3d757afe72e4' },
+  { id: 11, name: 'Chickpeas', category: 'Pulses & Lentils', price: 95, unit: 'per kg', description: 'Great for curries, sundal and hearty salads.', image: 'photo-1515543904379-3d757afe72e4' },
+  { id: 12, name: 'Masoor Dal', category: 'Pulses & Lentils', price: 105, unit: 'per kg', description: 'A pantry-friendly lentil that cooks up beautifully.', image: 'photo-1515543904379-3d757afe72e4' },
+  { id: 13, name: 'Fresh Milk', category: 'Dairy & Bakery', price: 30, unit: 'per 500 ml', description: 'A daily essential for tea, coffee and breakfast.', image: 'photo-1563636619-e9143da7973b' },
+  { id: 14, name: 'Butter', category: 'Dairy & Bakery', price: 58, unit: 'per 100 g', description: 'A creamy kitchen essential for toast and cooking.', image: 'photo-1589985270826-4b7bb135bc9d' },
+  { id: 15, name: 'Paneer', category: 'Dairy & Bakery', price: 95, unit: 'per 200 g', description: 'A versatile favourite for curries and quick meals.', image: 'photo-1631452180519-c014fe946bc7' },
+  { id: 16, name: 'Sandwich Bread', category: 'Dairy & Bakery', price: 40, unit: 'per loaf', description: 'A convenient base for breakfast and quick sandwiches.', image: 'photo-1509440159596-0249088772ff' },
+  { id: 17, name: 'Tea Biscuits', category: 'Snacks & Drinks', price: 30, unit: 'per pack', description: 'A familiar teatime companion to share at home.', image: 'photo-1558961363-fa8fdf82db35' },
+  { id: 18, name: 'Potato Chips', category: 'Snacks & Drinks', price: 20, unit: 'per pack', description: 'A crunchy snack for a little break in the day.', image: 'photo-1566478989037-eec170784d0b' },
+  { id: 19, name: 'Assam Tea', category: 'Snacks & Drinks', price: 125, unit: 'per 250 g', description: 'A classic tea choice for a warming daily brew.', image: 'photo-1544787219-7f47ccb76574' },
+  { id: 20, name: 'Ground Coffee', category: 'Snacks & Drinks', price: 180, unit: 'per 200 g', description: 'A rich, aromatic addition to your morning routine.', image: 'photo-1559496417-e7f25cb247f3' },
+  { id: 21, name: 'Sunflower Oil', category: 'Kitchen & Home', price: 145, unit: 'per litre', description: 'A versatile cooking oil for everyday recipes.', image: 'photo-1474979266404-7eaacbcd87c5' },
+  { id: 22, name: 'Iodised Salt', category: 'Kitchen & Home', price: 22, unit: 'per kg', description: 'A basic pantry essential for daily cooking.', image: 'photo-1518110925495-5fe2fda0442d' },
+  { id: 23, name: 'Turmeric Powder', category: 'Kitchen & Home', price: 35, unit: 'per 100 g', description: 'A warm, golden spice for everyday Indian dishes.', image: 'photo-1615485500704-8e990f9900f5' },
+  { id: 24, name: 'Dishwashing Liquid', category: 'Kitchen & Home', price: 85, unit: 'per bottle', description: 'A household cleaning essential for the kitchen.', image: 'photo-1585421514738-01798e348b17' },
+];
